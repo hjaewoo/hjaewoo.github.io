@@ -449,8 +449,6 @@ body {
   }
   .p-main__top .p-main__top__container {
     display: block;
-    position: unset;
-    transform: unset;
   }
   .p-main__top .p-main__top__container .p-main__top__container__img {
     margin: 0 auto;
