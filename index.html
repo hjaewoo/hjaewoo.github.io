@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAEWOO.HONG</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./assets/js/skill.bars.jquery.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script>
+    jQuery(function ($) {
+      $('.p-main__skills__container__contents__items__container').skillBars({
+        from: 0,	// バーの動くスタート位置
+        speed: 4000,  // 動くスピード
+        interval: 100, // 動き始めるまでの時間
+      });
+    });
+  </script>
+  <!--slick-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+  <header class="l-header">
+    <div class="l-header__content">
+      <h2 class="l-header__content__name">
+        <a href="./index.html">Jaewoo.Hong</a>
+      </h2>
+      <div class="hamburger__toggle">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="l-header__content__menu">
+        <ul class="l-header__content__menu__list">
+          <li class="l-header__content__menu__list__item"><a href="#top">About</a></li>
+          <li class="l-header__content__menu__list__item"><a href="#skills">Skills</a></li>
+          <li class="l-header__content__menu__list__item"><a href="#works">Portfolio</a></li>
+          <li class="l-header__content__menu__list__item"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="p-main">
+    <section class="p-main__top" id="top">
+      <div class="p-main__top__container">
+        <div class="p-main__top__container__img">
+          <img src="./assets/images//img_mv01.png" alt="" class="mainimg">
+          <img src="./assets/images//img_mv02.png" alt="" class="balloon02">
+          <img src="./assets/images//img_mv03.png" alt="" class="balloon03">
+          <img src="./assets/images//img_mv04.png" alt="" class="gear01">
+          <img src="./assets/images//img_mv05.png" alt="" class="gear02">
+          <img src="./assets/images//img_mv06.png" alt="" class="bar01">
+          <img src="./assets/images//img_mv07.png" alt="" class="bar02">
+          <img src="./assets/images//img_mv06.png" alt="" class="bar03">
+          <img src="./assets/images//img_mv07.png" alt="" class="bar04">
+          <img src="./assets/images//img_mv06.png" alt="" class="bar05">
+				</div>
+        <div class="p-main__top__container__introduction">
+          <h1 class="p-main__top__container__introduction__h1">JAEWOO HONG</h1>
+          <p class="p-main__top__container__introduction__occupation">Front end Web developer</p>
+          <p class="p-main__top__container__introduction__details">
+            turning ideas into<br>
+            real life <span>products</span><br>
+            is my calling.
+          </p>
+        </div>
+      </div>
+      <div class="p-main__top__scroll">
+        <a href="#introduction">
+          <div class="p-main__top__scroll__title">
+            <div class="p-main__top__scroll__title__indicate">●</div>
+          </div>
+        </a>
+        <div class="p-main__top__scroll__indicate">Scroll Down</div>
+      </div>
+    </section>
+    <section class="p-main__introduction" id="introduction">
+      <h2 class="c-title">
+        ABOUT
+      </h2>
+      <div class="p-main__introduction__content">
+        <div class="p-main__introduction__content__photo">
+          <img src="./assets/images/hong.jpg" alt="">
+        </div>
+        <div class="p-main__introduction__content__des">
+          学びには終わりがないというマインドセットで常に新しいコンテンツに関心を持って設計しようと努力しています。
+          几帳面で落ち着いた性格で最大限ミスなく作業を進め、お客様の立場に立って期待したより高いレベルの結果を出す自信があり、自分のポジションに留まらず常に学びの姿勢で絶えず新しいコンテンツを受け入れる心構えをしています。 
+          納期日を守ることはお客様との約束で信頼と信用がすべてだからです。 その信用を守るために自己管理と時間管理に力を入れているし、成長するエンジニアになるためにこれからも多様な技術を身につけてフルステックエンジニアになることが目標です。
+        </div>
+      </div>
+    </section>
+    <section class="p-main__skills" id="skills">
+      <div class="p-main__skills__container">
+        <h2 class="c-title" id="introduction">
+          SKILLS
+        </h2>
+        <ul class="p-main__skills__container__contents">
+          <li class="p-main__skills__container__contents__items p-main__skills__container__contents__width">
+            <p class="p-main__skills__container__contents__items__p">HTML&amp;CSS</p>
+            <div class="p-main__skills__container__contents__items__tooltip">100%</div>
+            <div class="p-main__skills__container__contents__items__tri"></div>
+            <div class="p-main__skills__container__contents__items__container" data-percent="100">
+              <div class="p-main__skills__container__contents__items__container__bar"></div>
+            </div>
+          </li>
+          <li class="p-main__skills__container__contents__items p-main__skills__container__contents__width">
+            <p class="p-main__skills__container__contents__items__p">Sass</p>
+            <div class="p-main__skills__container__contents__items__tooltip">90%</div>
+            <div class="p-main__skills__container__contents__items__tri"></div>
+            <div class="p-main__skills__container__contents__items__container" data-percent="90">
+              <div class="p-main__skills__container__contents__items__container__bar"></div>
+            </div>
+          </li>
+          <li class="p-main__skills__container__contents__items p-main__skills__container__contents__width">
+            <p class="p-main__skills__container__contents__items__p">JavaScript</p>
+            <div class="p-main__skills__container__contents__items__tooltip">80%</div>
+            <div class="p-main__skills__container__contents__items__container" data-percent="80">
+              <div class="p-main__skills__container__contents__items__container__bar"></div>
+            </div>
+          </li>
+          <li class="p-main__skills__container__contents__items p-main__skills__container__contents__width">
+            <p class="p-main__skills__container__contents__items__p">WordPress</p>
+            <div class="p-main__skills__container__contents__items__tooltip">80%</div>
+            <div class="p-main__skills__container__contents__items__tri"></div>
+            <div class="p-main__skills__container__contents__items__container" data-percent="80">
+              <div class="p-main__skills__container__contents__items__container__bar"></div>
+            </div>
+          </li>
+          <li class="p-main__skills__container__contents__items p-main__skills__container__contents__width">
+            <p class="p-main__skills__container__contents__items__p">Illustrator</p>
+            <div class="p-main__skills__container__contents__items__tooltip">50%</div>
+            <div class="p-main__skills__container__contents__items__tri"></div>
+            <div class="p-main__skills__container__contents__items__container" data-percent="50">
+              <div class="p-main__skills__container__contents__items__container__bar"></div>
+            </div>
+          </li>
+          <li class="p-main__skills__container__contents__items p-main__skills__container__contents__width">
+            <p class="p-main__skills__container__contents__items__p">Photoshop</p>
+            <div class="p-main__skills__container__contents__items__tooltip">60%</div>
+            <div class="p-main__skills__container__contents__items__tri"></div>
+            <div class="p-main__skills__container__contents__items__container" data-percent="60">
+              <div class="p-main__skills__container__contents__items__container__bar"></div>
+            </div>
+          </li>
+        </ul>
+        <ul class="p-main__skills__container__icon">
+          <li class="skill"><img src="./assets/images/html.png" alt="HTML5"></li>
+          <li class="skill"><img src="./assets/images/css.png" alt="CSS3"></li>
+          <li class="skill"><img src="./assets/images/js.png" alt="Javascript"></li>
+          <li class="skill"><img src="./assets/images/jquery.png" alt="Jquery"></li>
+          <li class="skill"><img src="./assets/images/ps.png" alt="Photoshop"></li>
+          <li class="skill"><img src="./assets/images/ai.png" alt="Illustrator"></li>
+          <li class="skill"><img src="./assets/images/ae.png" alt="After effects"></li>
+          <li class="skill"><img src="./assets/images/xd.png" alt="XD"></li>
+          <li class="skill"><img src="./assets/images/figma.png" alt="Figma"></li>                   
+          <li class="skill"><img src="./assets/images/vue.png" alt="Vue"></li>
+        </ul>
+      </div>
+    </section>
+    <section class="p-main__works" id="works">
+      <div class="p-main__works__container">
+        <h2 class="c-title white">
+          PORTFOLIO
+        </h2>
+        <ul class="p-main__works__container__flex">
+          <li class="p-main__works__container__flex__photo">
+            <div class="p-main__works__container__flex__photo__img">
+              <a href="matubarakoumutenn.html"><img src="assets/images/pj/matubarakoumutenn_list.jpg"></a>
+            </div>
+            <div class="p-main__works__container__flex__photo__text">
+              <div class="p-main__works__container__flex__photo__text__p">
+                <p>株式会社 松原工務店</p>
+              </div>
+              <div class="p-main__works__container__flex__photo__items">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>Jquery</p>
+                <p>php</p>
+                <p>Wordpress</p>
+              </div>
+            </div>
+          </li>
+          <li class="p-main__works__container__flex__photo">
+            <div class="p-main__works__container__flex__photo__img">
+              <a href="matubarakoumutenn_lp.html"><img src="assets/images/pj/matubarakoumutenn_lp_list.jpg"></a>
+            </div>
+            <div class="p-main__works__container__flex__photo__text">
+              <div class="p-main__works__container__flex__photo__text__p">
+                <p>株式会社 松原工務店 ランディングページ</p>
+              </div>
+              <div class="p-main__works__container__flex__photo__items">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>Jquery</p>
+                <p>php</p>
+                <p>Wordpress</p>
+              </div>
+            </div>
+          </li>
+          <li class="p-main__works__container__flex__photo">
+            <div class="p-main__works__container__flex__photo__img">
+              <a href="uchiyama.html"><img src="assets/images/pj/uchiyama_list.jpg"></a>
+            </div>
+            <div class="p-main__works__container__flex__photo__text">
+              <div class="p-main__works__container__flex__photo__text__p">
+                <p>株式会社内山ホーム</p>
+              </div>
+              <div class="p-main__works__container__flex__photo__items">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>Jquery</p>
+                <p>php</p>
+                <p>Wordpress</p>
+              </div>
+            </div>
+          </li>
+          <li class="p-main__works__container__flex__photo">
+            <div class="p-main__works__container__flex__photo__img">
+              <a href="ddaasoft.html"><img src="assets/images/pj/ddaasoft_list.jpg"></a>
+            </div>
+            <div class="p-main__works__container__flex__photo__text">
+              <div class="p-main__works__container__flex__photo__text__p">
+                <p>DESIGN ITDDAASOFT</p>
+              </div>
+              <div class="p-main__works__container__flex__photo__items">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>Jquery</p>
+              </div>
+            </div>
+          </li>
+          <li class="p-main__works__container__flex__photo">
+            <div class="p-main__works__container__flex__photo__img">
+              <a href="lgvelvet.html"><img src="assets/images/pj/lgvelvet_list.jpg"></a>
+            </div>
+            <div class="p-main__works__container__flex__photo__text">
+              <div class="p-main__works__container__flex__photo__text__p">
+                <p>LG VELVET</p>
+              </div>
+              <div class="p-main__works__container__flex__photo__items">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>Jquery</p>
+              </div>
+            </div>
+          </li>
+          <li class="p-main__works__container__flex__photo">
+            <div class="p-main__works__container__flex__photo__img">
+              <a href="thewisegroup.html"><img src="assets/images/pj/thewisegroup_list.jpg"></a>
+            </div>
+            <div class="p-main__works__container__flex__photo__text">
+              <div class="p-main__works__container__flex__photo__text__p">
+                <p>THE WISE GROUP</p>
+              </div>
+              <div class="p-main__works__container__flex__photo__items">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>Jquery</p>
+              </div>
+            </div>
+          </li>
+          <li class="p-main__works__container__flex__photo">
+            <div class="p-main__works__container__flex__photo__img">
+              <a href="sysmate.html"><img src="assets/images/pj/sysmate_list.jpg"></a>
+            </div>
+            <div class="p-main__works__container__flex__photo__text">
+              <div class="p-main__works__container__flex__photo__text__p">
+                <p>SYSMATE</p>
+              </div>
+              <div class="p-main__works__container__flex__photo__items">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>Jquery</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="p-main__works__container__btn">
+          <a href="list.html">
+            <p>制作実績一覧</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="p-main__contact" id="contact">
+      <div class="p-main__contact__container">
+        <h2 class="c-title">
+          CONTACT
+        </h2>
+        <div class="p-main__contact__container__text">
+          <p class="p-main__contact__container__text__eng">
+            A genius cannot win over one who tries,<br>
+            and one who tries cannot win one who enjoys.
+          </p>
+          <p class="p-main__contact__container__text__jp">
+            他の人たちと比べて、情熱的に働き、楽しんでいる人には勝てません。<br>
+            私にとって、フロントエンドエンジニアとして働くことはとても楽しく、やりがいがあります。<br>
+            また、自分が好きなことを上手にやりたいという思いもあります。<br>
+            私は自分が好きなことを楽しみながら、スキルを高めていく、素晴らしいフロントエンドエンジニアになりたいと思っています。<br><br>
+
+            常に明日が今日よりも良いように、努力し続けます。<br>
+            ポートフォリオをご覧いただき、ありがとうございました。
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="l-footer">
+    <small>&copy; JAEWOO HONG</small>
+  </footer>
+  <script>
+    /*slick*/
+    $(function () {
+      $(".p-main__works__container__flex").slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        centerMode: true,
+        centerPadding: "0px",
+        slidesToShow: 3,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 768, //レスポンシブ
+            settings: {
+              slidesToShow: 1, //表示スライド数
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    });
+  </script>
+</body>
+</html>
